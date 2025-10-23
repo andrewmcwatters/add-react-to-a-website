@@ -14,5 +14,5 @@ function LikeButton() {
   }, "Like");
 }
 const domContainer = document.querySelector('#like_button_container');
-const root = ReactDOM.createRoot(domContainer);
+const root = ReactDOMClient.createRoot(domContainer);
 root.render(e(LikeButton));
