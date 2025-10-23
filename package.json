@@ -4,7 +4,8 @@
   "description": "Add React to a Website",
   "main": "like_button.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel --watch src --out-dir . --presets react-app/prod"
   },
   "repository": {
     "type": "git",
